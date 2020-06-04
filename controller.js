@@ -4,7 +4,7 @@ let Pintores = require('../models/Pintores');
 
 let PintoresController = {};
 
-/*LISTAR*/
+
 Pintores.list = (req, res)=>{
     Pintores.find({})
         .limit(20)
